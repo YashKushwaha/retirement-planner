@@ -238,8 +238,7 @@ if __name__ == '__main__':
     try:
         sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     except:
-        cwd = r'C:\Users\Yash\Desktop\Codes'
-        os.chdir(cwd)
+        pass
     
     from retirement_planner import *
 
