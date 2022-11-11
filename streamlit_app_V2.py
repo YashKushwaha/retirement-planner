@@ -41,7 +41,7 @@ def find_annual_contribution_requirement():
     col1.write(portfolio_goal_input_label)
     portfolio_goal = col2.number_input(portfolio_goal_input_label,
                                   label_visibility = 'collapsed', key = 'portfolio_goal',
-                                  value=10000, step=100 )#, format = '%d'
+                                  value=100000, step=100 )#, format = '%d'
     
     col3, col4 = st.columns([3,2])
     
