@@ -181,7 +181,7 @@ def text_template(x):
         to_add = f'<br> - Your current portfolio of grows to $ {x[3]:,}'
     else:
         to_add = ''
-    text = f"By <b>Age {x[0]}</b>,<br>Your total portfolio size will be <b>$ {x[1]:,}</b>.<br> - Your cumulative yearly contributions of $ {x[3]:,} become $ {x[2]:,} with interest."       
+    text = f"By <b>Age {x[0]}</b>,<br>Your total portfolio size will be <b>$ {x[1]:,}</b>.<br> - Your cumulative yearly contributions of $ {x[4]:,} become $ {x[2]:,} with interest."       
     return text + to_add
 
 def plot_portfolio(future_value_of_SIP_df, x_col='t'):
